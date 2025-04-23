@@ -1,0 +1,71 @@
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+.jupyter/
+jupyter_notebook_config.py
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Build and distribution files
+build/
+dist/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+MANIFEST
+
+# Molecular docking project specific
+docking_results_*/
+*_data/
+*.mol2
+*.pdb1
+*.sdf
+*.pdb
+mgltools_*/
+autodock_vina_*/
+openbabel-*/
+*.tgz
+*.tar.gz
+
+# System and editor specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.history/
+*.tmp
+*.bak
+
